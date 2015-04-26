@@ -104,7 +104,7 @@ padding-bottom:4px;
   }
 
 .navbar-inverse .navbar-inner {
-  background: #34495e;
+  background: #2C3E50;
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false); }
   
   .navbar-inverse .nav > li > a {
@@ -120,22 +120,24 @@ padding-bottom:4px;
 		color: #fff;
 		font-size: 26px;
 		font-weight: 700;
-		margin-top:5px;
-		
+		margin:0px;padding:0;width: 150px;
+		border-radius: 40px;
+  		padding-left: 20px;
+  		background-color:#fff; 
 	}
 	.navbar .brand:hover {
 		color: rgba(40, 170, 157, 1);
 
 		
 	}
-	
+	#logo{width: 125px;}
 	.navbar-inverse .nav .active > a, .navbar-inverse .nav .active > a:hover, .navbar-inverse .nav .active > a:focus{
 		color: #FFAA49;
 	}
 
 	
 		.navbar-inner{
-	-moz-transition: all 0.3s ease-in-out;
+		-moz-transition: all 0.3s ease-in-out;
 		-ms-transition: all 0.3s ease-in-out;
 		-o-transition: all 0.3s ease-in-out;
 		transition: all 0.3s ease-in-out;
@@ -485,7 +487,7 @@ padding-bottom:4px;
 				overflow:hidden;
 			}
 			#header-section .innerbg{
-				background: rgba(44, 62, 80, 0.8)url(../../assets/img/tablebg.jpg) 50% 0 fixed repeat;
+				background: rgba(44, 62, 80, 0.8)url(../../assets/img/bluetri.jpg) 50% 0 fixed repeat;
 				min-height:650px;
 				width:100%;
 				display:inline-block;
