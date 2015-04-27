@@ -120,7 +120,7 @@ padding-bottom:4px;
 		color: #fff;
 		font-size: 26px;
 		font-weight: 700;
-		margin:0px;padding:0;width: 150px;
+		margin:0px;padding:0;width: 128px;
 		border-radius: 40px;
   		padding-left: 20px;
   		background-color:#fff; 
@@ -130,7 +130,7 @@ padding-bottom:4px;
 
 		
 	}
-	#logo{width: 125px;}
+	#logo{width: 100px;}
 	.navbar-inverse .nav .active > a, .navbar-inverse .nav .active > a:hover, .navbar-inverse .nav .active > a:focus{
 		color: #FFAA49;
 	}
