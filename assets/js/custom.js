@@ -217,6 +217,20 @@ jQuery('#show_4').bind('inview', function (event, visible) {
 
 //  COMMENT 
 //  COMMENT 
+jQuery('#show_5').bind('inview', function (event, visible) {
+        if (visible == true) {
+            jQuery(this).addClass("animated fadeInRightBig");
+
+			
+        }else{
+            jQuery(this).removeClass("animated fadeInRightBig");
+
+			//jQuery('.effect-box').unbind('inview');
+        }
+    });
+
+//  COMMENT
+//  COMMENT 
 jQuery('#show3').bind('inview', function (event, visible) {
         if (visible == true) {
             jQuery('#show3 .feature-box').addClass("animated bounceIn");
