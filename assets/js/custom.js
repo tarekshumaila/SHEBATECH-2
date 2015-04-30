@@ -173,6 +173,7 @@ jQuery('#show1').bind('inview', function (event, visible) {
 
 //  COMMENT 	
 
+
 //  COMMENT 
 jQuery('#show2').bind('inview', function (event, visible) {
         if (visible == true) {
@@ -187,7 +188,34 @@ jQuery('#show2').bind('inview', function (event, visible) {
     });
 
 //  COMMENT 
+//  COMMENT 
+jQuery('#show_3').bind('inview', function (event, visible) {
+        if (visible == true) {
+            jQuery(this).addClass("animated fadeInRightBig");
 
+			
+        }else{
+            jQuery(this).removeClass("animated fadeInRightBig");
+
+			//jQuery('.effect-box').unbind('inview');
+        }
+    });
+
+//  COMMENT
+//  COMMENT 
+jQuery('#show_4').bind('inview', function (event, visible) {
+        if (visible == true) {
+            jQuery(this).addClass("animated fadeInLeftBig");
+
+			
+        }else{
+            jQuery(this).removeClass("animated fadeInLeftBig");
+
+			//jQuery('.effect-box').unbind('inview');
+        }
+    });
+
+//  COMMENT 
 //  COMMENT 
 jQuery('#show3').bind('inview', function (event, visible) {
         if (visible == true) {
